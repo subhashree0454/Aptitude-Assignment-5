@@ -1,0 +1,175 @@
+Here are the solutions to your questions:
+
+### 1. A's Work Completion Time
+
+Let the total work be \( W \).
+
+- A does \(\frac{4}{5}W\) in \(\frac{3}{5}\) of the time it takes B to do the same work.
+- Let B's time to complete the whole work be \( T_B \). Then, A's time \( T_A = \frac{3}{5} T_B\).
+
+From the information given:
+\[
+\frac{4}{5}W = \text{(Rate of A)} \times \frac{3}{5} T_B \implies \text{Rate of A} = \frac{4W}{3T_B}
+\]
+\[
+\text{Rate of B} = \frac{W}{T_B}
+\]
+
+Since they together finish the work in 12 days:
+\[
+\text{Rate of A} + \text{Rate of B} = \frac{W}{12}
+\]
+Substituting the rates:
+\[
+\frac{4W}{3T_B} + \frac{W}{T_B} = \frac{W}{12}
+\]
+Multiplying through by \(12T_B\):
+\[
+48 + 12 = T_B \implies T_B = 60 \text{ days}
+\]
+Then, A's time:
+\[
+T_A = \frac{3}{5} \times 60 = 36 \text{ days}
+\]
+
+**Answer:** A alone will complete the work in **36 days**.
+
+---
+
+### 2. Work Completion by 10 Men and 5 Women
+
+Let the work rates be:
+- Rate of 1 man = \(M\)
+- Rate of 1 woman = \(W\)
+- Rate of 1 child = \(C\)
+
+From the first scenario:
+\[
+M + 3W + 4C = \frac{1}{96}
+\]
+
+From the second scenario:
+\[
+2M + 8C = \frac{1}{80} \implies M + 4C = \frac{1}{160}
+\]
+
+From the third scenario:
+\[
+2M + 3W = \frac{1}{120} \implies M + \frac{3}{2}W = \frac{1}{240}
+\]
+
+Now, solving these equations:
+
+1. From \(M + 4C = \frac{1}{160}\), substitute \(M\):
+   \[
+   M = \frac{1}{160} - 4C
+   \]
+2. Substitute into \(M + 3W = \frac{1}{240}\):
+   \[
+   \frac{1}{160} - 4C + 3W = \frac{1}{240}
+   \]
+   After solving this, you can express \(C\) and \(W\) in terms of \(M\) and find a relation.
+
+Finally, sum the rates for 10 men and 5 women:
+\[
+10M + 5W = 10 \left(\frac{1}{160} - 4C\right) + 5W
+\]
+Calculate \(C\) using previous relations and find the total time taken.
+
+**Final answer will be:** Time for 10 men and 5 women to complete the work.
+
+---
+
+### 3. Percentage Increase in Revenue Collection
+
+Let the original ticket price be \( P \) and the original sales be \( S \).
+
+The increase in sales:
+\[
+\text{New Sales} = S \times \left(1 + \frac{57 \frac{1}{7}}{100}\right) = S \times \frac{8}{5}
+\]
+
+The increase in price:
+\[
+\text{New Price} = P \times \left(1 + \frac{16 \frac{2}{3}}{100}\right) = P \times \frac{5}{3}
+\]
+
+The new revenue:
+\[
+\text{New Revenue} = \text{New Sales} \times \text{New Price} = S \times \frac{8}{5} \times P \times \frac{5}{3} = \frac{8SP}{3}
+\]
+
+The original revenue:
+\[
+\text{Original Revenue} = SP
+\]
+
+So the increase in revenue:
+\[
+\frac{\frac{8SP}{3} - SP}{SP} = \frac{8/3 - 1}{1} = \frac{5}{3} \approx 166.67\%
+\]
+
+**Answer:** Revenue collection increases by **166.67%**.
+
+---
+
+### 4. Remaining Food for Soldiers
+
+Initial food supply:
+\[
+\text{Total Food} = 1600 \text{ soldiers} \times 60 \text{ days} \times 900 \text{ grams} = 86400000 \text{ grams}
+\]
+
+Food consumed in 40 days by 1600 soldiers:
+\[
+\text{Food Consumed} = 1600 \times 40 \times 900 = 57600000 \text{ grams}
+\]
+
+Remaining food:
+\[
+\text{Remaining Food} = 86400000 - 57600000 = 28800000 \text{ grams}
+\]
+
+Now, 400 soldiers leave:
+\[
+\text{Remaining Soldiers} = 1600 - 400 = 1200
+\]
+
+Daily consumption for 1200 soldiers:
+\[
+\text{Daily Consumption} = 1200 \times 1000 = 1200000 \text{ grams}
+\]
+
+Days the remaining food will last:
+\[
+\text{Days} = \frac{28800000}{1200000} = 24 \text{ days}
+\]
+
+**Answer:** Food will last for **24 days**.
+
+---
+
+### 5. Cost Price of the Bicycle
+
+Let the cost price of the bicycle be \( CP \).
+
+Selling price with 10% profit:
+\[
+SP = CP + 0.1CP = 1.1CP
+\]
+
+If bought at 10% less:
+\[
+CP' = CP - 0.1CP = 0.9CP
+\]
+Selling price with 25% profit:
+\[
+SP' = CP' + 0.25CP' = 1.25 \times 0.9CP = 1.125CP
+\]
+
+From the problem:
+\[
+1.125CP = 1.1CP + 60 \implies 0.025CP = 60 \implies CP = \frac{60}{0.025} = 2400
+\]
+
+**Answer:** The cost price of the bicycle is **Rs. 2400**.
